@@ -27,5 +27,8 @@ def helper_method
 end
 
 def list(songs)
-  songs.each_with_index
+  songs.each_with_index{|k, v|
+    puts "k. v"
+    
+  }
 end
