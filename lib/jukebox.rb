@@ -25,3 +25,7 @@ def helper_method
 - play : lets you choose a song to play
 - exit : exits this program)
 end
+
+def list(songs)
+  
+end
