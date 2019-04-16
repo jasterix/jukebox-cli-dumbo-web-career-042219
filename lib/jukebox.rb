@@ -40,4 +40,6 @@ def play(songs)
     song = songs[response-1]
     puts "Playing #{song}"
     elsif songs.include?(response)
-      puts 
+      puts "Playing #{response}
+    else
+    puts 
