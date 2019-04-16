@@ -51,7 +51,7 @@ def exit_jukebox
 end
 
 def run(songs)
-  #callhelp
+  # should call on the help method to show the user the available commands
   command = "" 
   while command  
   puts "Please enter a command:"
