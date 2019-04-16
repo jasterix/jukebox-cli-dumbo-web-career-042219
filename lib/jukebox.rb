@@ -59,4 +59,6 @@ def run(songs)
   case command
   when "list"
     list(songs)
+  when "play"
+    play(songs)
   
