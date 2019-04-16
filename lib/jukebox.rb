@@ -39,4 +39,5 @@ def play(songs)
   if (1..9).include?(response.to_i)
     song = songs[response-1]
     puts "Playing #{song}"
-    elsif 
+    elsif songs.include?(response)
+      puts 
