@@ -49,3 +49,10 @@ end
 def exit_jukebox 
   puts "Goodbye"
 end
+
+def run(songs)
+  #callhelp
+  command = "" 
+  while command  
+  puts "Please enter a command:"
+  command = gets.downcase.strip  
