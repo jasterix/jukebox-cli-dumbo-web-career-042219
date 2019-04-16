@@ -18,3 +18,6 @@ songs = [
 
 # puts say_hello(username)
 
+def helper_method
+  puts 
+end
