@@ -27,5 +27,5 @@ def helper_method
 end
 
 def list(songs)
-  
+  songs.each_with_index
 end
