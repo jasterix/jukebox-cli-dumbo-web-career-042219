@@ -10,10 +10,11 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
-def say_hello(name)
-  "Hi #{name}"
-end
-puts "Enter your name:"
-username= gets.chomp
+# def say_hello(name)
+#   "Hi #{name}"
+# end
+# puts "Enter your name:"
+# username= gets.chomp
 
-puts say_hello(username)
+# puts say_hello(username)
+
