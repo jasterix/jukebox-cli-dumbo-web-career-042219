@@ -57,5 +57,6 @@ def run(songs)
   puts "Please enter a command:"
   command = gets.chomp
   case command
-  when 
+  when "list"
+    list(songs)
   
