@@ -36,7 +36,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   response = gets.chomp
   
-  if (1..9).include?(response)
+  if (1..9).include?(response.to_i)
     song = songs[response-1]
     puts "Playing #{song}"
     elsif 
